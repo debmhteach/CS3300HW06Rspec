@@ -200,17 +200,7 @@ end
 ## Create integration spec and a home page (v0.5)
 
 
-1. Add Capybara to `Gemfile`:
-
-```ruby
-
-group :development, :test do
-  gem 'capybara'
-end
-
-```
-
-2. Create first feature test by running `bundle exec rails g rspec:feature home_page`:
+1. Create first feature test by running `bundle exec rails g rspec:feature home_page`:
 
 ```ruby
 
