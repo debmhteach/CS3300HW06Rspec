@@ -287,7 +287,8 @@ end
 ```
 
 
-## Add simplecov gem:
+## Add Test Coverage 
+A. Add simplecov gem:
 
 
 1. Rails coverage report: `bundle exec rails stats`
