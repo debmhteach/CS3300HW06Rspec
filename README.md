@@ -143,7 +143,7 @@ end
 Re-run the RSpec tests and the failing tests should now pass.
 
 
-3. Add scope specs:
+3. Add scope specs to the spec/models/project_spec.rb`
 
 ```ruby
 
