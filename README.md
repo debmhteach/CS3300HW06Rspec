@@ -218,7 +218,7 @@ end
 ```
 
 
-## Create integration spec for Projects
+D. Create integration spec for Projects
 
 
 1. `bundle exec rails g rspec:feature projects`
