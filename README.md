@@ -127,11 +127,9 @@ end
 
 
 
-2. The test should fail because the project is not validating that a title is entered. Update your model project.rb to require a title is entered. Run the test again.
+2. The test should fail because the project is not validating that a title is entered. 
+Update your model project.rb to require a title is entered. Run the test again.
 
-
-
-```
 Re-run the RSpec tests and the required title should pass.
 
 3. Update your project_spec.rb code to test that the project has a description. Run test. Then update your project.rb model code to require a description to be entered.
