@@ -111,10 +111,6 @@ RSpec.describe Project, type: :model do
       expect(project.valid?).to eq(false)
     end
 
-    it "ensures the description is present" do
-      project = Project.new(title: "Title")
-      expect(project.valid?).to eq(false)
-    end
     
     it "should be able to save project" do
       project = Project.new(title: "Title", description: "Some description content goes here")
@@ -129,22 +125,19 @@ end
 
 ```
 
-These tests should fail because the project is missing presence validators.
 
 
-2. Add some presence validators to `app/models/project.rb`:
+2. The test should fail because the project is not validating that a title is entered. Update your model project.rb to require a title is entered. Run the test again.
 
-```ruby
 
-class Project < ApplicationRecord
-  validates_presence_of :title, :description
-end
 
 ```
-Re-run the RSpec tests and the failing tests should now pass.
+Re-run the RSpec tests and the required title should pass.
+
+3. Update your project_spec.rb code to test that the project has a description. Run test. Then update your project.rb model code to require a description to be entered.
 
 
-3. Add scope specs to the spec/models/project_spec.rb`
+4. Add scope specs to the spec/models/project_spec.rb`
 
 ```ruby
 
@@ -199,7 +192,7 @@ end
 
 ```
 
-D. Create integration spec and a home page (v0.5)
+D. Create integration spec: home page 
 
 
 1. Create first feature test by running `bundle exec rails g rspec:feature home_page`:
@@ -218,7 +211,7 @@ end
 ```
 
 
-D. Create integration spec for Projects
+D. Create integration spec: Projects
 
 
 1. `bundle exec rails g rspec:feature projects`
