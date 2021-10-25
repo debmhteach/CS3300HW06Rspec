@@ -320,7 +320,14 @@ end
 5.  Running `bunlde exec rspec` will generate a coverage report 
 
 
+## Resources
+* https://relishapp.com/rspec/rspec-rails/docs 
 
+* https://github.com/teamcapybara/capybara 
+
+* https://github.com/colszowka/simplecov 
+
+* http://www.betterspecs.org/  
 
 
 
