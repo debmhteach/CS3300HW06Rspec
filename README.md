@@ -31,7 +31,8 @@ bundle exec rails generate rspec:install
 bundle exec rspec # Make sure you're in the root directory of the application when you run this command
 ```
 
-## Your first spec 
+## Implement Tests
+A. Your first spec 
 
 
 1. Create first spec `spec/example/first_spec.rb`:
@@ -95,7 +96,7 @@ RSpec.describe "hello spec" do
  end
 ```
 
-## Create a unit test for Project model
+B. Create a unit test for Project model
 
 1. Create `spec/models/project_spec.rb`:
 
@@ -170,7 +171,7 @@ end
 ```
 
 
-##  Create functional test for Projects controller
+C.  Create functional test for Projects controller
 
 1. Create Projects spec `spec/controller/projects_spec.rb`:
 
@@ -198,7 +199,7 @@ end
 
 ```
 
-## Create integration spec and a home page (v0.5)
+D. Create integration spec and a home page (v0.5)
 
 
 1. Create first feature test by running `bundle exec rails g rspec:feature home_page`:
