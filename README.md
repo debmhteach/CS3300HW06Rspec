@@ -128,7 +128,7 @@ end
 
 
 2. The test should fail because the project is not validating that a title is entered. 
-Update your model project.rb to require a title is entered. Run the test again.
+Update your model project.rb to require a title is entered using alidates_presence_of. 
 
 Re-run the RSpec tests and the required title should pass.
 
