@@ -314,24 +314,13 @@ end
 
 ```
 
-4. Don't forget to add `coverage/` dir to your `.gitignore` file;
 
-5. bundle install
+4. bundle install
 
-6.  Running `bunlde exec rspec` will generate a coverage report 
-
-
-## Helpful links:
+5.  Running `bunlde exec rspec` will generate a coverage report 
 
 
-* https://relishapp.com/rspec/rspec-rails/docs
 
-* https://github.com/teamcapybara/capybara
 
-* https://github.com/colszowka/simplecov
 
-* http://www.betterspecs.org/ 
 
-* https://github.com/thoughtbot/factory_bot
-
-* https://github.com/ffaker/ffaker
