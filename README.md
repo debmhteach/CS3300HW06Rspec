@@ -31,7 +31,7 @@ bundle exec rails generate rspec:install
 bundle exec rspec # Make sure you're in the root directory of the application when you run this command
 ```
 
-## Your first spec (v0.2)
+## Your first spec 
 
 
 1. Create first spec `spec/example/first_spec.rb`:
