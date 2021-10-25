@@ -48,7 +48,8 @@ end
 
 ```
 
-2. And catch an error:
+2. Run rspec ./spec/example/first_spec.rb
+3. And catch an error:
 
 ```
 
