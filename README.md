@@ -1,4 +1,4 @@
-# Testing Rails with RSpec
+# Iteration 04: Testing Rails with RSpec
 
 Beginners introduction to testing Ruby On Rails application with RSpec and Capybara.
 
